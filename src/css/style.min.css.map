@@ -6,7 +6,8 @@
         "../scss/_variables.scss",
         "../scss/blocks/_general.scss",
         "../scss/blocks/_input.scss",
-        "../scss/blocks/_buttons.scss"
+        "../scss/blocks/_buttons.scss",
+        "../scss/blocks/_media.scss"
     ],
     "names": [],
     "file": "style.min.css"
