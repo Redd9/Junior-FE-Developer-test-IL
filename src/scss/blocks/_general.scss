@@ -1,6 +1,10 @@
 body {
     background-color: $whisper;
     font-family: 'Poppins', sans-serif;
+    margin: 0 auto;
+}
+span {
+    font-size: 13px;
 }
 
 .signup {
@@ -24,7 +28,6 @@ body {
             flex-direction: column;
             align-items: left;
             width: 275px;
-            height: 112px;
             color: $primary;
             padding: 24px 0px 0px 24px;
             .hone {
@@ -62,10 +65,9 @@ body {
         padding-top: 80px;
         background-color: $white;
         border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 2px 28px $ghost;
+        box-shadow: 0px 2px 5px $ghost;
         margin-bottom: 36px;
         span {
-            font-size: 13px;
             font-weight: 500;
         }
     }
@@ -96,24 +98,22 @@ body {
         height: 56px;
         &__wrapper {
             text-align: center;
-            span {
-                font-size: 13px;
-                font-weight: 400;
-                color: $trout;
+        }
+        &_txt {
+            font-size: 13px;
+            font-weight: 400;
+            color: $trout;
+            margin-bottom: 16px;
+            br {
+                display: none;
             }
-            a {
-                display: inline;
-                font-size: 13px;
-                font-weight: 500;
-                color: $primary;
-                text-decoration: none; 
-            }
-            p {
-                font-size: 13px;
-                font-weight: 400;
-                color: $trout;
-                margin-bottom: 16px;
-            }
+        }
+        a {
+            display: inline;
+            font-size: 13px;
+            font-weight: 500;
+            color: $primary;
+            text-decoration: none; 
         }
     }
 }

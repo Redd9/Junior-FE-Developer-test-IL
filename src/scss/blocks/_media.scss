@@ -1,0 +1,100 @@
+@media (max-width: 320px) {
+    .signup {
+        &__wrapper {
+            margin-top: 0px;
+            width: 100vw;
+        }
+
+        &__header {
+            height: 112px;
+            border-radius: 0%;
+            &_text {
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                color: $primary;
+                padding: 28px 0px 0px 20px;
+                .hone {
+                    font-size: 15px;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                }
+                .htwo {
+                    font-size: 13px;
+                    font-weight: 400;
+                }
+            }
+        }
+        &__avatar {
+            display: flex;
+            justify-content: center;
+            height: 75px;
+            width: 100vw;
+            padding-left: 0;
+        }
+        &__main {
+            width: 93vw;
+            padding: 60px 5vw 0px 2vw;
+            margin-bottom: 15px;
+            .signup__input, #password-input {
+                width: 95vw;
+                height: 30px;
+                margin-bottom: 12px;
+            }
+            input {
+                font-size: 11px;
+            }
+            .input_checkbox {
+                width: 12px;
+                height: 12px;   
+                border: 1px solid $hit-gray;
+                margin-right: 8px;
+                margin-bottom: 16px;
+            }
+            label {
+                font-size: 12px;
+                font-weight: normal;
+            }
+            .password-control {
+                top: 14px;
+                right: 10px;
+            }
+        }    
+    }
+
+    .signup__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80vw;
+        height: 36px;
+        font-size: 12px;
+    }
+
+    &__forgot {
+        margin: 16px 0 24px 0;
+        img {
+            width: 19px;
+            margin-right: 4px
+        }
+        
+    }
+
+    p {
+        font-size: 12px;
+        margin: 0;
+    }
+    .copyright {
+        width: 100vw;
+        max-height: 56px;
+        &_txt {
+            font-size: 11px;
+            font-weight: 400;
+            color: $trout;
+            a.signup {
+                font-size: 11px;
+            }
+        }
+    }
+}
