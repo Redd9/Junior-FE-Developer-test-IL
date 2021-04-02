@@ -1,4 +1,4 @@
-@media (max-width: 320px) {
+@media (max-width: 420px) {
     .signup {
         &__wrapper {
             margin-top: 0px;
@@ -33,11 +33,11 @@
             padding-left: 0;
         }
         &__main {
-            width: 93vw;
-            padding: 60px 5vw 0px 2vw;
+            width: 90vw;
+            padding: 40px 5vw 0px 5vw;
             margin-bottom: 15px;
             .signup__input, #password-input {
-                width: 95vw;
+                width: 90vw;
                 height: 30px;
                 margin-bottom: 12px;
             }
@@ -88,12 +88,130 @@
     .copyright {
         width: 100vw;
         max-height: 56px;
-        &_txt {
+        .copyright_txt {
             font-size: 11px;
             font-weight: 400;
             color: $trout;
+            margin-bottom: 5px;
             a.signup {
                 font-size: 11px;
+            }
+        }
+    }
+}
+
+@media (max-width: 300px) {
+
+    span {
+        font-size: 11px;
+    }
+    .signup {
+        &__wrapper {
+            margin-top: 0px;
+            width: 100vw;
+        }
+
+        &__header {
+            height: 88px;
+            border-radius: 0%;
+            &_text {
+                display: flex;
+                flex-direction: column;
+                align-items: left;
+                color: $primary;
+                padding: 20px 0px 0px 15px;
+                .hone {
+                    font-size: 13px;
+                    font-weight: 600;
+                    margin-bottom: 8px;
+                }
+                .htwo {
+                    font-size: 11px;
+                    font-weight: 400;
+                }
+            }
+            &_login {
+                img {
+                    width: 136px;
+                }
+            }
+        }
+        &__avatar {
+            top: 70px;
+            display: flex;
+            justify-content: center;
+            height: 70px;
+            width: 100vw;
+            padding-left: 0;
+        }
+        &__main {
+            width: 90vw;
+            height: 260px;
+            padding: 40px 5vw 0px 5vw;
+            margin-bottom: 15px;
+            .signup__input, #password-input {
+                width: 90vw;
+                height: 30px;
+                margin-bottom: 12px;
+            }
+            input {
+                font-size: 10px;
+            }
+            .input_checkbox {
+                width: 12px;
+                height: 12px;   
+                border: 1px solid $hit-gray;
+                margin-right: 8px;
+                margin-bottom: 16px;
+            }
+            label {
+                padding-top: 1px;
+                font-size: 10px;
+                font-weight: normal;
+            }
+            .password-control {
+                top: 14px;
+                right: 15px;
+            }
+        }
+        &__forgot {
+        margin: 16px 0 15px 0;
+        img {
+            width: 15px;
+            margin-right: 4px
+        } 
+        span {
+            font-size: 10px;
+        }  
+    }  
+    }
+
+    .signup__btn {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 80vw;
+        height: 28px;
+        font-size: 11px;
+    }
+
+    .copyright {
+        max-height: 50px;
+        margin-right: 0;
+        &__wrapper {
+            width: 100vw;
+        }
+        .copyright_txt {
+            font-size: 9px;
+            font-weight: 400;
+            color: $trout;
+            margin-bottom: 5px;
+            br {
+                display: block;
+            }
+            a.signup {
+                font-size: 9px;
             }
         }
     }

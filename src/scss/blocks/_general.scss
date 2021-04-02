@@ -74,6 +74,14 @@ span {
     &__remember {
         display: inline-flex;
     }
+    .signup__btn {
+        &_animated {
+            animation: login 3s infinite 2s;
+            &:hover {
+                animation-play-state: paused;
+            }
+        }
+    }
     &__forgot {
         display: flex;
         flex-direction: row;
