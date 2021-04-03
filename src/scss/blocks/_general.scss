@@ -1,7 +1,7 @@
 body {
     background-color: $whisper;
     font-family: 'Poppins', sans-serif;
-    margin: 0 auto;
+    // margin: 0 auto; // ?
 }
 span {
     font-size: 13px;
@@ -11,7 +11,7 @@ span {
     display: flex;
     justify-content: center;
     &__wrapper {
-        display: block;
+        display: block; // ?
         width: 451px;
         height: 492px;
         margin-top: 158px;
@@ -43,12 +43,12 @@ span {
     }
     &__avatar {
         position: absolute;
-        left: 0px;
+        left: 24px;
         top: 88px;  
         display: block;
         height: 72px;
         width: 427px;
-        padding-left: 24px;
+        // padding-left: 24px;
         z-index: 2;
         img {
             border-radius: 100%;
@@ -74,14 +74,7 @@ span {
     &__remember {
         display: inline-flex;
     }
-    .signup__btn {
-        &_animated {
-            animation: login 3s infinite 2s;
-            &:hover {
-                animation-play-state: paused;
-            }
-        }
-    }
+
     &__forgot {
         display: flex;
         flex-direction: row;
