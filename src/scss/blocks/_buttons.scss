@@ -12,3 +12,11 @@
         cursor: pointer;
     }
 }
+.signup__btn {
+    &--animated {
+        animation: login 3s infinite 2s;
+        &:hover {
+            animation-play-state: paused;
+        }
+    }
+}
