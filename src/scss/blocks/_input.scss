@@ -1,63 +1,62 @@
 input {
-    background: $white;
-    border-radius: 4px;
-    // outline: none;
-    // не использовать никогда!
-    outline: 1px solid transparent;
-    font-size: 13px;
-    font-weight: 400;
-    font-family: 'Poppins';
-    color: $trout;
-    &:focus {
-        border: 1px solid $primary;
-    }
+  background: $white;
+  border-radius: 4px;
+  // outline: none;
+  // не использовать никогда!
+  outline: 1px solid transparent;
+  font-size: 13px;
+  font-weight: 400;
+  font-family: "Poppins";
+  color: $trout;
+  &:focus {
+    border: 1px solid $primary;
+  }
 }
 
-.signup__input, #password-input {
-    width: 395px;
-    height: 36px;
-    left: 621px;
-    top: 284px;
-    border: 1px solid $ghost;
-    box-sizing: border-box;
-    padding-left: 12px;
-    margin-top: 8px;
-    margin-bottom: 16px;    
+.signup__input,
+#password-input {
+  width: 395px;
+  height: 36px;
+  left: 621px;
+  top: 284px;
+  border: 1px solid $ghost;
+  box-sizing: border-box;
+  padding-left: 12px;
+  margin-top: 8px;
+  margin-bottom: 16px;
 }
 
 .input_checkbox {
-    width: 16px;
-    height: 16px;   
-    border: 1px solid $hit-gray;
-    margin-right: 8px;
-    margin-bottom: 16px;
-    // visited - why ??
-    &:visited {
-        background: $whisper;
-        color: $primary;
-    }
+  width: 16px;
+  height: 16px;
+  border: 1px solid $hit-gray;
+  margin-right: 8px;
+  margin-bottom: 16px;
+  // visited - why ??
+  &:visited {
+    background: $whisper;
+    color: $primary;
+  }
 }
 
 label {
-    font-size: 13px;
-    font-weight: 500;
-    color: $trout;
-
+  font-size: 13px;
+  font-weight: 500;
+  color: $trout;
 }
 
 .password {
-	position: relative;
-    
+  position: relative;
 }
 .password-control {
-	position: absolute;
-	display: inline-block;
-    top: 17px;
-	right: 15px;
-	width: 19px;
-	height: 16px;
-	background: url(../img/icons/pass.png) 0 0 no-repeat;
+  position: absolute;
+  display: inline-block;
+  top: 17px;
+  right: 15px;
+  width: 19px;
+  height: 16px;
+  background: url(../img/icons/pass.png) 0 0 no-repeat;
 }
 .password-control.view {
-    background: url(../img/icons/pass.png) 0 0 no-repeat;
+  background: url(../img/icons/pass.png) 0 0 no-repeat;
 }

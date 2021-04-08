@@ -1,22 +1,22 @@
 .signup__btn {
-    width: 395px;
-    height: 36px;
-    background: $primary;
-    border-radius: 4px;
-    outline: none;
-    border: none;
-    color: $white;
-    font-family: 'Poppins', sans-serif;
-    font-size: 13px;
-    &:hover {
-        cursor: pointer;
-    }
+  width: 395px;
+  height: 36px;
+  background: $primary;
+  border-radius: 4px;
+  outline: none;
+  border: none;
+  color: $white;
+  font-family: "Poppins", sans-serif;
+  font-size: 13px;
+  &:hover {
+    cursor: pointer;
+  }
 }
 .signup__btn {
-    &--animated {
-        animation: login 3s infinite 2s;
-        &:hover {
-            animation-play-state: paused;
-        }
+  &--animated {
+    animation: login 3s infinite 2s;
+    &:hover {
+      animation-play-state: paused;
     }
+  }
 }

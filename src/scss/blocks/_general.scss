@@ -1,120 +1,120 @@
 body {
-    background-color: $whisper;
-    font-family: 'Poppins', sans-serif;
-    // margin: 0 auto; // ?
+  background-color: $whisper;
+  font-family: "Poppins", sans-serif;
+  // margin: 0 auto; // ?
 }
 span {
-    font-size: 13px;
+  font-size: 13px;
 }
 
 .signup {
+  display: flex;
+  justify-content: center;
+  &__wrapper {
+    display: block; // ?
+    width: 451px;
+    height: 492px;
+    margin-top: 158px;
+    background-color: $white;
+    position: relative;
+  }
+  &__header {
+    height: 112px;
     display: flex;
+    background-color: $primary-transparent;
+    border-radius: 5px 5px 0px 0px;
+    &_text {
+      display: flex;
+      flex-direction: column;
+      align-items: left;
+      width: 275px;
+      color: $primary;
+      padding: 24px 0px 0px 24px;
+      .hone {
+        font-size: 16px;
+        font-weight: 500;
+        margin-bottom: 8px;
+      }
+      .htwo {
+        font-size: 13px;
+        font-weight: 400;
+      }
+    }
+  }
+  &__avatar {
+    position: absolute;
+    left: 24px;
+    top: 88px;
+    display: block;
+    height: 72px;
+    width: 427px;
+    // padding-left: 24px;
+    z-index: 2;
+    img {
+      border-radius: 100%;
+      border: 3px solid $whisper;
+    }
+  }
+
+  &__main {
+    width: 399px;
+    height: 276px;
+    padding-left: 24px;
+    padding-right: 28px;
+    padding-bottom: 24px;
+    padding-top: 80px;
+    background-color: $white;
+    border-radius: 0px 0px 4px 4px;
+    box-shadow: 0px 2px 5px $ghost;
+    margin-bottom: 36px;
+    span {
+      font-weight: 500;
+    }
+  }
+  &__remember {
+    display: inline-flex;
+  }
+
+  &__forgot {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
     justify-content: center;
+    margin: 16px 0 24px 0;
+    img {
+      width: 19px;
+      margin-right: 4px;
+    }
+    span {
+      font-weight: 400;
+      color: $storm-gray;
+    }
+    &:hover {
+      cursor: pointer;
+    }
+  }
+  .copyright {
+    margin: 0 auto;
+    width: 331px;
+    height: 56px;
     &__wrapper {
-        display: block; // ?
-        width: 451px;
-        height: 492px;
-        margin-top: 158px;
-        background-color: $white;
-        position: relative;
+      text-align: center;
     }
-    &__header {
-        height: 112px;
-        display: flex;
-        background-color: $primary-transparent;
-        border-radius: 5px 5px 0px 0px;
-        &_text {
-            display: flex;
-            flex-direction: column;
-            align-items: left;
-            width: 275px;
-            color: $primary;
-            padding: 24px 0px 0px 24px;
-            .hone {
-                font-size: 16px;
-                font-weight: 500;
-                margin-bottom: 8px;
-            }
-            .htwo {
-                font-size: 13px;
-                font-weight: 400;
-            }
-        }
+    &_txt {
+      font-size: 13px;
+      font-weight: 400;
+      color: $trout;
+      margin-bottom: 16px;
+      br {
+        display: none;
+      }
     }
-    &__avatar {
-        position: absolute;
-        left: 24px;
-        top: 88px;  
-        display: block;
-        height: 72px;
-        width: 427px;
-        // padding-left: 24px;
-        z-index: 2;
-        img {
-            border-radius: 100%;
-            border: 3px solid $whisper;
-        }
+    a {
+      display: inline;
+      font-size: 13px;
+      font-weight: 500;
+      color: $primary;
+      text-decoration: none;
     }
-
-    &__main {
-        width: 399px;
-        height: 276px;
-        padding-left: 24px;
-        padding-right: 28px;
-        padding-bottom: 24px;
-        padding-top: 80px;
-        background-color: $white;
-        border-radius: 0px 0px 4px 4px;
-        box-shadow: 0px 2px 5px $ghost;
-        margin-bottom: 36px;
-        span {
-            font-weight: 500;
-        }
-    }
-    &__remember {
-        display: inline-flex;
-    }
-
-    &__forgot {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-        margin: 16px 0 24px 0;
-        img {
-            width: 19px;
-            margin-right: 4px
-        }
-        span {
-            font-weight: 400;
-            color: $storm-gray;
-        }
-        &:hover {
-            cursor: pointer;
-        }
-    }
-    .copyright {
-        margin: 0 auto;
-        width: 331px;
-        height: 56px;
-        &__wrapper {
-            text-align: center;
-        }
-        &_txt {
-            font-size: 13px;
-            font-weight: 400;
-            color: $trout;
-            margin-bottom: 16px;
-            br {
-                display: none;
-            }
-        }
-        a {
-            display: inline;
-            font-size: 13px;
-            font-weight: 500;
-            color: $primary;
-            text-decoration: none; 
-        }
-    }
+  }
 }
