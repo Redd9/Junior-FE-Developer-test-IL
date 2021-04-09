@@ -1,0 +1,19 @@
+{
+  "name": "sign-up-form",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Redd9/Junior-FE-Developer-test-IL.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Redd9/Junior-FE-Developer-test-IL/issues"
+  },
+  "homepage": "https://github.com/Redd9/Junior-FE-Developer-test-IL#readme"
+}
