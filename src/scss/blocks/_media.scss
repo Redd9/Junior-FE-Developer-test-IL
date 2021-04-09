@@ -28,14 +28,17 @@
     &__avatar {
       display: flex;
       justify-content: center;
-      height: 85px;
+      height: 80px;
+      top: 80px;
       width: 100vw;
-      padding-left: 0;
+      left: 0;
     }
     &__main {
       width: 90vw;
       padding: 40px 5vw 0px 5vw;
       margin-bottom: 15px;
+      border-radius: 0px;
+
       .signup__input,
       #password-input {
         width: 90vw;
@@ -137,11 +140,8 @@
     }
     &__avatar {
       top: 70px;
-      display: flex;
-      justify-content: center;
+      left: 0px;
       height: 70px;
-      width: 100vw;
-      padding-left: 0;
     }
 
     &__main {
