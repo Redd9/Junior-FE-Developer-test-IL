@@ -4,6 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "start:dev": "webpack-dev-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Redd9/Junior-FE-Developer-test-IL/issues"
   },
-  "homepage": "https://github.com/Redd9/Junior-FE-Developer-test-IL#readme"
+  "homepage": "https://github.com/Redd9/Junior-FE-Developer-test-IL#readme",
+  "devDependencies": {
+    "webpack-dev-server": "^3.11.2"
+  }
 }
