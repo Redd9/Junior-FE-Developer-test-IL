@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign-Up</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/index.HASH_REF_52b6ff25b2628e0ff83b5918e2fbf5b5.css">
+  </head>
+
+  <body>
+    <section class="signup">
+      <div class="signup__wrapper">
+        <div class="signup__header">
+          <div class="signup__header_text">
+            <span class="hone">Welcome Back !</span>
+            <span class="htwo">Sign in to continue</span>
+          </div>
+          <div class="signup__header_img"></div>
+        </div>
+
+        <div class="signup__avatar">
+          <img src="/Avatar_Image.HASH_REF_e2e32000dc33fb627285d95aa3c5d75a.png" alt="avatar">
+        </div>
+
+        <div class="signup__main">
+          <div class="conatiner">
+            <span>Username</span>
+
+            <input class="signup__input" type="text" name="name" placeholder="Enter username">
+ 
+            <span>Password</span>
+
+            <div class="password">
+              <input type="password" name="password" placeholder="Enter password" id="password-input">
+              <a href="#" class="password-control"></a>
+            </div>
+
+            <div class="signup__remember">
+              <input class="input-checkbox" type="checkbox" id="rememberme"><label for="rememberme">Remember me</label>
+            </div>
+            
+            <a href="#">
+              <button class="signup__btn signup__btn--animated">Log In</button>
+            </a>
+            
+            <a href="#" class="signup__forgot">
+              <img src="/Lock.HASH_REF_4d230ce0665ab1ccf9f06317f2cec10b.png" alt="lock">
+              <span>Forgot your passwords?</span>
+            </a>
+          </div>
+        </div>
+
+        <footer class="copyright">
+          <div class="copyright__wrapper">
+            <div class="copyright_txt">
+              Don’t have an account ? <a href="#" class="signup"> Signup now</a>
+            </div>
+            <div class="copyright_txt">
+              © 2020 Crafted and designed
+              by 10ursabanoglu.🎉
+            </div>
+          </div>
+        </footer>
+      </div>
+    </section>
+
+    <script src="https://snipp.ru/cdn/jquery/2.1.1/jquery.min.js"></script>
+    <script src="/index.HASH_REF_6c289700c20eac7e3f164c94355c732e.js"></script>
+  </body>
+</html>
